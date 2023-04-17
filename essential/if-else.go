@@ -87,47 +87,6 @@
 // 	fmt.Println(a, c, account_number, n, name, version, playstore, key)
 // }
 
-// package main
-
-// import "fmt"
-
-// func main() {
-// 	numbersArray := []int{1, 2, 3, 4, 5, 6, 7, 8}
-// 	channel := make(chan int)
-
-// 	go sumNumbers(numbersArray[:len(numbersArray)/2], channel)
-// 	go sumNumbers(numbersArray[len(numbersArray)/2:], channel)
-
-// 	number1 := <-channel
-// 	number2 := <-channel
-
-// 	fmt.Println("Sum of two numbers in first goroutine: ", number1)
-// 	fmt.Println("Sum of two numbers in second goroutine: ", number2)
-
-// 	fmt.Println("Total : ", number1+number2)
-// }
-
-// func sumNumbers(numbers []int, channel chan int) {
-// 	result := 0
-// 	for _, value := range numbers {
-// 		result += value
-// 	}
-// 	channel <- result
-// }
-
-// package main
-
-// func lowerBound(arr[]int){
-// 	low :=0
-// 	high :=len(arr) - 1
-// 	mid :=0
-
-// 	for low < high {
-// 		mid = (low + high) /2
-// 		if arr
-// 	}
-
-// }
 
 // package main
 
@@ -174,7 +133,7 @@ func hello(a, b, c int) int {
 	return sum
 }
 func main() {
-	fmt.Println(sum
+	fmt.Println(sum)
 		
 		
 		

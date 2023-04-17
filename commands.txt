@@ -1,0 +1,11 @@
+Go lang commands:
+=================
+
+1)go run <file_name>
+2)go build 
+3)go get -u github.com/aws/aws-sdk-go
+4)go get -u github.com/aws/aws-sdk-go-v2
+5)go get github.com/aws/aws-sdk-go-v2/config
+6)go get github.com/aws/aws-sdk-go-v2/service/ec2
+7)go get github.com/aws/aws-sdk-go-v2/service/ec2/types
+8) go mod <file_name> ---to install the mods pre-request methods
