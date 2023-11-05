@@ -9,3 +9,13 @@ func main() {
 	value = name + key
 	fmt.Println(value)
 }
+
+
+
+
+// package main 
+
+// import(){
+// 	"fmt"
+// 	"sync"
+// }

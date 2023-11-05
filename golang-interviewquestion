@@ -1,0 +1,39 @@
+1) what is mean by concurrency ?
+one of keyfeatures in go.microservers support to the channel and goroutines.
+ Channels provide a way for goroutines to communicate with each other, while goroutines allow for lightweight concurrency.number of request is come concurrenct with out need threading model.
+
+2) what is difference of prism in golang ?
+  prism is provide to the set of the tools for color management and conversion.
+
+3)  what is mechanism syncing in golang ?
+ three types syncing in golang 
+   static syncing 
+   block 
+   method
+
+4) can you explain in inheritance in golang ?
+As classes are not supported by Golang, inheritance occurs through struct embedding. Since structs cannot be directly extended, we must instead use the idea of composition to create new objects using the struct. So, it's safe to say that Golang doesn't support inheritance
+
+5)  difference between buffered and unbuffered channel in golang ?
+
+Buffered channels in Golang are used to communicate concurrently executing functions by sending and receiving information from a certain element type for a given capacity. Unbuffered Channel in Golang is used without any capacity or 0 capacity and communication succeeds only when both a sender and receiver are ready
+
+
+6) what is Functional Interfaces?
+   Go also supports functional interfaces define to the single model.This allows for a more functional programming style.It is functions are passed to the argument in other functions.
+
+
+
+CompanyName: Mphasis 1 st round 
+================================
+1) tell me about yourself 
+
+2) what is Handler in golang ?
+
+3) what is mechanism syncing in golang ?
+
+4) write a sample code in golang ? 
+
+5) what is mean by  Goroutines in golang ?
+
+6) what is restapi in go lang.
